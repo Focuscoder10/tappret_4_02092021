@@ -538,7 +538,7 @@ a[data-lightbox] {
 
 a[data-lightbox]:hover::before {
     content: "+";
-    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 32px;
     width: 50px;
     height: 50px;
@@ -649,9 +649,9 @@ p,
 label,
 .btn,
 a {
-    font-family: "helvetica";
+    font-family: "helvetica", sans-serif;
     font-weight: 400;
-    color: #575757!important;
+    color: #212121!important;
 }
 
 /* .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 12px;
 }
 
 .tight-width-whitespace {
@@ -687,7 +687,7 @@ p {
 
 .h1 {
     font-size: 20px;
-    font-family: "Open Sans";
+    font-family: "Open Sans", sans-serif;
 }
 
 .cta-hero {
@@ -744,11 +744,12 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #212121!important;
 }
 
 .portfolio-thumb {
     margin-bottom: 24px;
+    width: 100%;
 }
 
 .portfolio-row {
@@ -783,7 +784,13 @@ h4 {
 }
 
 .tc-white {
-    color: #F9C9B4!important;
+    color: #F7E0D4!important;
+}
+.tcl-white {
+    color: #212121 !important;
+}
+.tcb-white {
+    color: #C8C4BC !important;
 }
 
 .btn-atomic-tangerine {
@@ -910,8 +917,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
     }
     .b-parallax {
         background-attachment: scroll;
